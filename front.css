@@ -1,0 +1,871 @@
+body{
+    font-family: 'Kode Mono';
+    margin: 0;
+    padding:0;
+    background-color: rgb(225, 219, 219);
+}
+
+.container{
+    height: 800px;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/71/0/KUmtY1.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logotext{
+    float: left;
+    color: rgb(143, 4, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 1px;
+    margin-left: 15px;
+    padding-right: 5px;
+    padding-top: 0.1px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1.5s ease-in-out;
+}
+
+.logotext h3{
+    margin: 0;
+}
+.logotext1{
+    color: rgb(153, 147, 147);
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Kode Mono';
+    transition: all 1s ease-in-out;
+}
+
+.logotext1:hover{
+    transform: translateX(123px);
+}
+
+.logotext2{
+    margin-top: 50px;
+}
+
+.title{
+    color: orange;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+
+.navbar{
+    background-origin: black;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.navbar ul{
+    overflow: auto;
+    border-bottom: 1px solid #a08e8e;
+    margin-right: 40px;
+    margin-left: 170px;
+}
+.navbar.ul:hover{
+    box-shadow: 5px 6px 10px gray;
+}
+
+.navbar li{
+    float: left;
+    margin: 13px 30px;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.search{
+    margin-top: 25px;
+    position: relative;
+    left: -10px;
+}
+
+.navbar li a:hover{
+    color: rgb(124, 10, 29);
+    text-decoration: line-through;
+}
+
+.search:hover{
+
+}
+
+.fit{
+    color: rgb(248, 248, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 120px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+.slogan {
+    color: rgb(102, 99, 99);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 60px;
+    word-spacing: 20px; /* Spacing between words */
+    letter-spacing: 7px; /* Spacing between letters */
+    position: absolute; /* Position the slogan absolutely */
+    left: 20px; /* Position the slogan at the left edge of its containing element */
+    top: 39%; /* Position the slogan vertically centered */
+    transform: translateY(-30%); /* Adjust vertical alignment */
+    line-height: 0.5;
+    margin-left: 120px;
+}
+
+
+.button{
+    text-align: center; /* Center the button horizontally */
+    margin-top: 320px; 
+    margin-left: -810px;
+    border-radius: 5px;
+}
+.button button{
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    background-color: rgb(102, 119, 119);
+    transition: background-color 0.3s ease;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.container {
+    position: relative; /* Position the container relatively to enable absolute positioning of child elements */
+}
+
+.sev img{
+    height: 800px;
+    width: 800px;
+}
+.sev h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    font-size: 25px;
+    margin-right: 530px;
+    margin-top: -5px;
+}
+.sign-up-form {
+    
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    float: right;
+    margin-top: -700px;
+    margin-right: 100px;
+    height: 600px;
+  }
+  .sign-up-form input{
+    width: 100%;
+  }
+  .sign-up-form label{
+    margin-left: -200px;
+  }
+  .sign-up-form input{
+    margin-left: -200px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+ 
+  .form-group 
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 50px;
+    
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #form-message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .sign-up-form p{
+    margin-top: 20px;
+  }
+.second{
+    background-image: url(https://images.unsplash.com/photo-1590487988256-9ed24133863e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltJTIwZXF1aXBtZW50fGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.ab{
+    background-image: url(https://images.unsplash.com/photo-1603346133929-24265debae88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bgab{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(221, 223, 224);
+    font-size: 50px;
+    line-height: 0.3;
+    margin-bottom: 40px;
+    margin-left: -150px;
+    margin-top: -50px;
+}
+.bgab:nth-child(2) {
+    margin-top: -5px; /* Adjust the value as needed */
+    margin-left: -165px;
+}
+
+.para{
+    color: rgb(239, 236, 229);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.but {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    cursor: pointer;
+    background-color: rgb(97, 91, 91);
+    margin-top: 25px;
+    margin-left: -250px;
+    height: 45px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.but button {
+    font-size: 15px;
+    width: 100%; /* Take full width of the container */
+    height: 100%; /* Take full height of the container */
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.but button:hover{
+    background-color: rgb(247, 241, 241);
+    color: rgb(15, 12, 12);;
+}
+
+.three{
+    color: rgb(54, 51, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    /* margin-left: 450px; */
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;    
+    
+}
+
+.three h3{
+    border-bottom: 3px solid black;
+    padding-bottom: 170px;
+    
+}
+.chaitanya{
+    background-color: rgb(249, 249, 245);
+}
+.our h3,
+.our p,
+.our button {
+    display: inline-block;
+    vertical-align: middle; /* Align elements vertically */
+    margin-right: 20px; /* Add spacing between elements */
+    
+}
+
+.our{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+.hea{
+    margin-left: 50px;
+    margin-top: -10px;
+    transition:color 0.3s ease;
+}
+
+.p1{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 750px;
+    margin-top: -10px;
+}
+.t{
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.our button{
+    height: 40px;
+    width: 150px;
+    color: gray;
+    text-align: center;
+    background-color: rgb(102, 119, 119);
+    color: black;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.our a{
+    text-decoration: none;
+    color: black;
+}
+
+.our button:hover{
+    background-color: rgb(127, 130, 132);
+    cursor: pointer;
+}
+
+.horizontal-line {
+    border-top: 3px solid black; /* Adjust thickness, style, and color as needed */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.our1 h3,
+.our1 p2,
+.our1 button {
+    display: inline-block;
+    vertical-align: middle; /* Align elements vertically */
+    margin-right: 20px; /* Add spacing between elements */
+}
+
+.our1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    
+    
+}
+.hea1{
+    margin-left: 45px;
+    margin-top: 20px;
+    transition:color 0.3s ease;
+}
+
+.p2{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 995px;
+    margin-top: -60px;
+}
+.t1{
+    margin-left: 1310px;
+    margin-top: -130px;
+}
+
+.our1 button{
+    height: 40px;
+    width: 150px;
+    color: gray;
+    text-align: center;
+    background-color: rgb(102, 119, 119);
+    color: black;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.our1 button:hover{
+    background-color: rgb(127, 130, 132);
+    cursor: pointer;
+}
+.our1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.horizontal-line1 {
+    border-top: 3px solid black; /* Adjust thickness, style, and color as needed */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hea:hover{
+    color: rgb(88, 87, 87);
+    cursor: pointer;
+}
+
+.hea1:hover{
+    color: rgb(88, 87, 87);
+    cursor: pointer;
+}
+
+.our2 h3,
+.our2 p3,
+.our2 button {
+    display: inline-block;
+    vertical-align: middle; /* Align elements vertically */
+    margin-right: 20px; /* Add spacing between elements */
+}
+
+.our2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    
+    
+}
+.hea2{
+    margin-left: 45px;
+    margin-top: 20px;
+    transition:color 0.3s ease;
+}
+
+.p3{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 995px;
+    margin-top: -60px;
+}
+.t2{
+    margin-left: 1310px;
+    margin-top: -130px;
+}
+
+.our2 button{
+    height: 40px;
+    width: 150px;
+    color: gray;
+    text-align: center;
+    background-color: rgb(102, 119, 119);
+    color: black;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.our2 button:hover{
+    background-color: rgb(127, 130, 132);
+    cursor: pointer;
+}
+
+.our2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.horizontal-line1 {
+    border-top: 3px solid black; /* Adjust thickness, style, and color as needed */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hea2:hover{
+    color: rgb(88, 87, 87);
+    cursor: pointer;
+}
+
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.heading1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.vide video{
+    height: 600px;
+    width: 800px;
+    border: none;
+}
+
+.com{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: -475px;
+    margin-left: 1050px;
+    transition: color 0.3s ease;
+}
+.com:hover{
+    color: rgb(116, 116, 112);
+}
+
+.pom{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px; 
+    margin-left: 850px; 
+    max-width: 600px; 
+    padding: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+
+
+.com1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 250px;
+    margin-top: 250px;
+    transition: color 0.3s ease;
+}
+
+.com1:hover{
+    color: rgb(116, 116, 112);
+}
+
+.pom1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 60px;
+    max-width: 600px;
+    padding: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+
+
+
+.vid1 video{
+    height: 450px;
+    width: 720px;
+    float: right;
+    margin-top: -105px;
+}
+
+
+.com2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 150px; /* Adjust this value as needed to move it lower */
+    margin-left: 1100px;
+    position: relative; /* Change to relative positioning */
+    z-index: 2; /* Higher z-index to appear above other elements */
+    transition: color 0.3s ease;
+}
+
+.com2:hover{
+    color: rgb(116, 116, 112);
+}
+
+.pom2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -10px; /* Adjust this value based on your layout */
+    margin-left: 900px; /* Adjust this value based on your layout */
+    max-width: 600px;
+    padding: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    position: relative; /* Change to relative positioning */
+    z-index: 0; /* Lower z-index to ensure it's behind .com2 */
+}
+
+.vid2 video {
+    height: 450px;
+    width: 800px;
+    float: left;
+    margin-top: -110px; /* Keep this value the same */
+    margin-left: 0px; /* Keep this value the same */
+    display: block;
+    position: relative; /* Ensure .vid2 video stays in its original position */
+    z-index: 0; /* Ensure it's behind .com2 */
+}
+
+.bg1{ 
+    height: 800px;
+     width: 100%;
+      margin-top: 30px; 
+    }
+    
+    .join{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 65px;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        margin-left: 500px;
+         margin-top: -500px;
+        color: rgb(169, 176, 182); 
+        }
+        
+        .down{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            letter-spacing: 2px;
+            word-spacing: 3px;
+            margin-left: 400px;
+             margin-top:0px;
+             color: white;
+            color: rgb(169, 176, 182);
+        }
+        
+     .apple img, .play img{ 
+         height: 50px;
+        width: 150px;
+        border: 1px solid black; 
+        border-radius: 7px;
+        margin-left: 50px;
+        }
+    .play{
+        margin-left: 350px;
+        transition: box;
+    }
+    .play img{
+        transition: box-shadow 0.4s ease;
+    }
+    .play img:hover{
+        box-shadow: 3px 3px 10px white;
+    }
+
+    .apple img{
+        transition: box-shadow 0.4s ease;
+    }
+    .apple img:hover{
+        box-shadow: 3px 3px 10px white;
+    }
+
+    .apple{
+        margin-left: 450px;
+    }
+
+    .follow {
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        display: flex; /* Use flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-top: 250px;
+        letter-spacing: 3px;
+        word-spacing: 7px;
+    }
+    
+    .saket {
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-left: 20px; /* Adjust the spacing between .follow and .saket */
+        text-decoration: none;
+        color: black;
+        letter-spacing: 3px;
+        word-spacing: 7px;
+        transition: color 0.3s ease;
+    }
+
+    .saket:hover{
+        color: rgb(111, 99, 99);
+    }
+
+    .stock{
+        margin-top: 100px;
+    }
+    
+    .firstpic{
+        height: 240px;
+        width: 240px;
+        margin-left: 40px;
+    }
+
+    .secondpic{
+        height: 240px;
+        width: 240px;
+        margin-left:40px;
+    }
+    .thirdpic{
+        height: 240px;
+        width: 240px;
+        margin-left: 40px;
+    }
+    .fourthpic{
+        height: 240px;
+        width: 240px;
+        margin-left: 40px;
+    }
+
+    .fifthpic{
+        height: 240px;
+        width: 240px;
+        margin-left: 40px;
+    }
+
+    .last{
+        background-color: rgb(123, 122, 122);
+        height: 650px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .lets{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: rgb(254, 254, 255);
+        word-spacing: 7px;
+        margin-left: 240px;
+        margin-top: 100px;
+    }
+    .sign{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        letter-spacing: 3px;
+        word-spacing: 6px;
+        color: white;
+        margin-top:30px ;
+        margin-left: 120px;
+        margin-bottom: 70px;
+    }
+
+    form{
+        margin-left: 240px;
+    }r
+
+    label{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    input,textarea {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 20% /* Set the width as needed */
+
+    }
+
+    
+    #fullname{
+                    margin-top: 10px;
+    }
+    #contactno{
+            margin-top: 10px;
+    }
+    #email{
+            margin-top: 10px; 
+            margin-left: 350px;      
+    }
+    #so{
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+    #message{
+            margin-top: -10px;
+    }
+    
+    #sub{
+        height: 30px;
+        width: 90px;
+        background-color:rgb(123, 122, 122);
+        transition: background-color, 0.3s, ease;
+        text-align: center;
+    }
+
+    #sub:hover{
+        cursor: pointer;
+        background-color: white;
+    }
+    
+    .address{
+        font-size: 20px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 1000px;
+        margin-top: -450px;
+        line-height: 1.5;
+    }
+
+    .address p{
+        font-size: 15px;
+    }
+
+    .address button{
+        height: 50px;
+        width: 240px;
+        font-size: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: rgb(123, 122, 122);
+        transition:background-color 0.3s ease ;
+    }
+
+    .address button:hover{
+        background-color: white;
+    }
+
+    .address a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #email {
+        margin-top: 10px;
+        margin-left: 0px; /* Adjust this value or remove it to align it properly */
+        margin-right: -60px;
+    }
+    .map{
+        height: 100px;
+        width: 150px;
+    }
+    
+    

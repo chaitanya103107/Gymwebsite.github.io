@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="rutu.css">
+  <script src="rutu.js"></script>
+  <style>
+    .error-message {
+      color: red;
+    }
+  </style>
+</head>
+<body background="nathan.jpg">
+
+  <div class="nav">
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="front.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="bmi.html">BMI Calculator</a></li>
+          <li><a href="rutu.html">Register Now</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>   
+
+  <main>
+    <section class="registration-section">
+      <div class="registration-form">
+        <h2>Registration Form</h2>
+        <form action="backend.php" id="registration-form">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <div class="error-message" id="name-error"></div>
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <div id="form-message"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+
+  <script>
+    document.getElementById('registration-form').addEventListener('submit', function(event) {
+      var nameInput = document.getElementById('username');
+      var name = nameInput.value.trim();
+
+      if (!/^[a-zA-Z]+$/.test(name)) {
+        event.preventDefault(); // Prevent form submission
+        document.getElementById('name-error').textContent = 'Please enter only alphabets';
+        nameInput.focus(); // Set focus back to name field
+      } else {
+        document.getElementById('name-error').textContent = ''; // Clear any previous error message
+      }
+    });
+  </script>
+</body>
+</html>

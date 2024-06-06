@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Trial Class</title>
+  <link rel="stylesheet" href="trail.css">
+</head>
+<body background="nathan.jpg">
+  <header>
+    <nav>
+      <!-- Navigation links -->
+    </nav>
+  </header>
+
+  <main>
+    <section class="trial-class-section">
+      <div class="trial-class-form">
+        <h2>Book Your Trial Class</h2>
+        <form action="backend.php" id="trial-class-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <div id="name-error" class="error"></div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="class-type">Class Type:</label>
+            <select id="class-type" name="class-type" required>
+              <option value="">Select Class Type</option>
+              <option value="yoga">Yoga</option>
+              <option value="strength-training">Strength Training</option>
+              <option value="cardio">Cardio</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+          </div>
+          <button type="submit">Book Now</button>
+        </form>
+        <div id="form-message"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('trial-class-form').addEventListener('submit', function(event) {
+      const nameInput = document.getElementById('name');
+      const nameValue = nameInput.value.trim();
+
+      // Regular expression to check if the name contains only alphabetic characters
+      const nameRegex = /^[a-zA-Z]+$/;
+
+      if (!nameRegex.test(nameValue)) {
+        event.preventDefault(); // Prevent form submission
+        document.getElementById('name-error').textContent = 'Please enter only alphabetic characters.';
+        nameInput.classList.add('error');
+      } else {
+        document.getElementById('name-error').textContent = '';
+        nameInput.classList.remove('error');
+      }
+    });
+  </script>
+</body>
+</html>

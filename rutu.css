@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .nav {
+    position: relative;
+    z-index: 1; /* Ensure the navbar appears above other elements */
+}
+
+.navbar {
+    
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+    border-bottom: 1px solid #1a1919;
+    margin-right: 40px;
+    margin-left: 170px;
+}
+
+.navbar ul:hover {
+    box-shadow: 5px 6px 10px gray;
+}
+
+.navbar li {
+    float: left;
+    margin: 13px 30px;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(170, 166, 161);
+    font-family:'Kode Mono';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search {
+    margin-top: 25px;
+    position: relative;
+    left: -10px;
+}
+
+.navbar li a:hover {
+    color: rgb(124, 10, 29);
+    text-decoration: line-through;
+}
+
+.search:hover {
+    /* Add styles for search hover if needed */
+}
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Registration Section Styles */
+  .registration-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .registration-form {
+    
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+
+  .registration-form h2{
+    color: #756d6d;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(118, 115, 115);
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #form-message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }

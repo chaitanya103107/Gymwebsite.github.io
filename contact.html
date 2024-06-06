@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Gym Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contact.css">
+  <script src="contact.js"></script>
+</head>
+<body background="bg.jpg">
+    
+    <div class="nav">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="front.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="bmi.html">BMI Calculator</a></li>
+                    <li><a href="rutu.html">Register Now</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                
+                </ul>
+            </nav>
+        </header>
+    </div>   
+  <header>
+    <nav>
+      <!-- Navigation links -->
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Katraj Road Grand View -7, near
+            Podar International School, Ambegaon
+            Budruk, Pune, Maharashtra 411046</p>
+        <p>Phone: 02446246872</p>
+        <p>Email: chaitanyav.m.2003@gmial.com</p>
+      </div>
+
+      <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action= " backend.php" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <div id="form-message"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
